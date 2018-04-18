@@ -1,0 +1,47 @@
+*Which is the capital of France ?
+a)Paris
+b)London
+c)Lille
+d)Lisbon
+%
+=a
+
+*Virat Kohli is the captain of which team in the IPL ?
+a)KKR
+b)RCB
+c)MI
+d)CSK
+%
+=b
+
+*Which is the national bird of India ?
+a)Sparrow
+b)Crow
+c)Peacock
+d)Parrot
+%
+=c
+
+*Which is the capital of France ?
+a)Paris
+b)London
+c)Lille
+d)Lisbon
+%
+=a
+
+*How many times has KKR won the IPL title?
+a)0
+b)1
+c)2
+d)3
+%
+=c
+
+*Which is the national bird of India ?
+a)Sparrow
+b)Crow
+c)Peacock
+d)Parrot
+%
+=c
