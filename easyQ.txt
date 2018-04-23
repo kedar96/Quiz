@@ -22,14 +22,6 @@ d)Parrot
 %
 =c
 
-*Which is the capital of France ?
-a)Paris
-b)London
-c)Lille
-d)Lisbon
-%
-=a
-
 *How many times has KKR won the IPL title?
 a)0
 b)1
@@ -38,10 +30,146 @@ d)3
 %
 =c
 
-*Which is the national bird of India ?
-a)Sparrow
-b)Crow
-c)Peacock
-d)Parrot
+*What is the most used search engine?
+a)Yahoo
+b)Bing
+c)Google
+d)SOSO
+%
+=c
+
+* What do you use to click stuff?
+a)Ram
+b)CPU
+c)Keyboard
+d)Mouse
+%
+=d
+
+* What do you use to type
+a)Keyboard
+b)ROM
+c)CPU
+d) Arrow
+%
+=a
+
+* What do you use to read CDs/DVDs?
+a)CD rom
+b)Floppy Drive
+c)DVD ROM
+d)CD/DVD player
+%
+=d
+
+*What is REAL Anti-Virus software?
+a)Norton
+b)Internet Explorer
+c)Microsoft
+d)Google Chrome
+%
+=a
+
+* Which line do you use to connect to the internet?
+a)Ethernet
+b)Keyboard
+c)Motherboard
+d)Mouse
+%
+=a
+
+* What memory below is the largest?
+a)1TB
+b)1GB
+c)55000 bytes
+d)10GB
+%
+=a
+
+*What is an icon?
+a)You play with it
+b)You click to start something
+c)You ignore it
+d)None of the above
+%
+=b
+
+* What does a Control Panel do?
+a)Controls your computer
+b)Change Settings
+c)For Fun
+d)None of the above 
+%
+=b
+
+* What do you use to connect to the internet?
+a)CPU
+b)USB lines
+c)Modem
+d)Software
+%
+=c
+
+*What operation system dose people use the most?
+a)Windows
+b)Linux
+c)Ubuntu
+d)Mac OS
+%
+=a
+
+*Graphic Card is used for
+a)Software
+b)Playing 3D or very high graphical games
+c)Operating the computer
+d)None of the above 
+%
+=b
+
+* What do you call a portable computer?
+a)Tablet
+b)Laptop
+c)Computer
+d)Booktop
+%
+=b
+
+*RAM stands for
+a)Random Access Memory
+b)Read Only Memory
+c)All of the above
+d)Random Access Machine
+%
+=a
+
+*ROM stands for 
+a)Read Only Memory
+b)Random Access Memory
+c)Part of RAM
+d)All of the above
+%
+=a
+
+*The main circuit board of the computer.
+a)RAM
+b)CPU
+c)Mother Board
+d)Hard Drive
+%
+=c
+
+*Which is the device that stores all the physical data      which includes; files, folders, programs, and the   Operating System?
+a)RAM
+b)Hard Drive
+c)CPU
+d)Mother Board
+%
+=b
+
+*Which device that holds your operations in memory while the computer is running. Once the computer is turned off, any processes running in this device are deleted?
+a)CPU
+b)ROM
+c)RAM
+d)Hard Drive
 %
 =c

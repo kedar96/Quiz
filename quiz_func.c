@@ -9,15 +9,19 @@
 #include <time.h>
 #include"quiz.h"
 #include <sys/stat.h>
-
+#define buffSIZE 10000
+#define ansSIZE 50
 
 void quizType(int qType)
 {
-	char buff[10000];
-	questionType q[50]; //to store questions
+	
+	char buff[buffSIZE];
+	questionType q[ansSIZE]; //to store questions
 	//int fEasy,fMed,fHard;
-	int f1;	
+	int f1,num=0;	
+	int lower=0,upper=0;	
 	int flag=0;
+	int range=0;
 	int size;
 	char ans;
 	int i=0,j=0,k=0;
@@ -83,14 +87,25 @@ void quizType(int qType)
 	printf("\n\t******You can only answer using  the options a/b/c/d or A/B/C/D ******\n");
 	printf("\n******Any other option choosen will be automatically marked as INCORRECT answer******\n");
 	printf("\n\t******--->N0TE +4 for corect answer and -1 for incorrect******\n\n");
-	for(int i=0;i<5;i++)
+	int ran=0;
+	range=(k+1)/10;
+	upper=range-1;
+	printf("\nk:%d, upper %d, range %d",k,upper,range);
+	for(int i=0;i<10;i++)
 	{
-		printf("%d)%s",i+1,q[i].fullQues);
+		srand(time(NULL));
+		ran = rand();
+		num = (rand() %(upper - lower + 1)) + lower;		
+		printf("time:%d\n\n",ran);
+		printf("num %d\n\n",num);
+		lower=lower+range;
+		upper=upper+range;
+		printf("%d)%s",i+1,q[num].fullQues);
 		printf("enter your answer\n");
 		getchar();		
 		scanf("%c",&ans);
 		ans=tolower(ans);
-		if(ans==q[i].corrAns)
+		if(ans==q[num].corrAns)
 		{
 			total=total+4;
 			printf("\n******CORRECT ANSWER******\n\n");
@@ -98,7 +113,7 @@ void quizType(int qType)
 		else
 		{
 			total=total-1;
-			printf("\n******INCORRECT, The right answer is '%c'******\n\n",q[i].corrAns);
+			printf("\n******INCORRECT, The right answer is '%c'******\n\n",q[num].corrAns);
 		}
 	}
 	printf("\nYour final score is %d (out of 40)\n",total);
