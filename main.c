@@ -11,8 +11,8 @@
 
 int main()
 {
-	char buff[10000];
-	questionType q[50]; //to store questions
+	//char buff[10000];
+	//questionType q[50]; //to store questions
 	int fEasy,fMed,fHard;
 	int flag=0;
 	int size;
