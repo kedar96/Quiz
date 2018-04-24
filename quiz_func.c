@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-=======
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
->>>>>>> f5477c3105cdbd26cf016e24307e9a841e059110
 #include <fcntl.h>
 #include <unistd.h>
 #include <time.h>
@@ -52,15 +44,6 @@ void quizType(int qType)
 		perror("error");
 		exit(1);
 	}
-<<<<<<< HEAD
-
-	size = read(f1, buff, sizeof(buff));
-	//  	printf("the file's length is %d\n",size);
-	for (i = 0; i < size; i++)
-	{
-		char *quest = malloc(200 * sizeof(char));
-		if (buff[i] == '*')
-=======
 	
 	size=read(f1, buff, sizeof(buff));
       	printf("the file's length is %d\n",size);
@@ -68,7 +51,6 @@ void quizType(int qType)
 	{
 		char *quest=malloc(500 * sizeof(char));
 		if(buff[i]=='*')
->>>>>>> f5477c3105cdbd26cf016e24307e9a841e059110
 		{
 			j = 0;
 			while (buff[i + 1] != '%')
@@ -96,13 +78,8 @@ void quizType(int qType)
 			q[k].corrAns = ans;
 			strcpy(q[k].fullQues, quest);
 			free(quest);
-<<<<<<< HEAD
-			//	printf("%s",q[k].fullQues);
-			//	printf("%c",q[k].corrAns);
-=======
 		//	printf("%s\n",q[k].fullQues);
 		//	printf("%c\n\n",q[k].corrAns);
->>>>>>> f5477c3105cdbd26cf016e24307e9a841e059110
 			k++;
 			//	printf("\n\n");
 		}
