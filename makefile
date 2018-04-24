@@ -5,3 +5,7 @@ main.o:main.c quiz.h
 quiz_func.o:quiz_func.c quiz.h
 	gcc -c quiz_func.c
 
+.PHONY: clean
+
+clean:
+	rm *.o;rm quiz;
