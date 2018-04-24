@@ -3,13 +3,13 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
-#include <malloc.h>
+//#include <malloc.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <time.h>
 #include"quiz.h"
 #include <sys/stat.h>
-#define buffSIZE 10000
+#define buffSIZE 20000
 #define ansSIZE 50
 
 void quizType(int qType)
@@ -49,7 +49,7 @@ void quizType(int qType)
     //  	printf("the file's length is %d\n",size);
 	for(i=0;i<size;i++)
 	{
-		char *quest=malloc(200 * sizeof(char));
+		char *quest=malloc(500 * sizeof(char));
 		if(buff[i]=='*')
 		{
 			j=0;
@@ -78,8 +78,8 @@ void quizType(int qType)
 			q[k].corrAns=ans;
 			strcpy(q[k].fullQues,quest);
 			free(quest);
-		//	printf("%s",q[k].fullQues);
-		//	printf("%c",q[k].corrAns);
+			printf("%s\n",q[k].fullQues);
+			printf("%c\n\n",q[k].corrAns);
 			k++;
 		//	printf("\n\n");
 		}			

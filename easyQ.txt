@@ -86,14 +86,6 @@ d)10GB
 %
 =a
 
-*What is an icon?
-a)You play with it
-b)You click to start something
-c)You ignore it
-d)None of the above
-%
-=b
-
 * What does a Control Panel do?
 a)Controls your computer
 b)Change Settings
@@ -158,7 +150,7 @@ d)Hard Drive
 %
 =c
 
-*Which is the device that stores all the physical data      which includes; files, folders, programs, and the   Operating System?
+*Which is the device that stores all the physical data  which includes; files, folders, programs, and the  Operating System?
 a)RAM
 b)Hard Drive
 c)CPU
@@ -173,3 +165,11 @@ c)RAM
 d)Hard Drive
 %
 =c
+
+*What is an icon?
+a)You play with it
+b)You click to start something
+c)You ignore it
+d)None of the above
+%
+=b

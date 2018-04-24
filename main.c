@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
-#include <malloc.h>
+//#include <malloc.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <time.h>
@@ -12,8 +12,8 @@
 
 int main()
 {
-	char buff[10000];
-	questionType q[50]; //to store questions
+	//char buff[10000];
+	//questionType q[50]; //to store questions
 	int fEasy,fMed,fHard;
 	int flag=0;
 	int size;
