@@ -1,8 +1,7 @@
 typedef struct question
 {
-	char fullQues[500];
-      //  char answers[4];
-        char corrAns; //We don't need an int for that (0,1,2 or 3)
+	char fullQues[500]; //store each question
+        char corrAns;	//store each answer (a/b/c/d)
 } questionType;
 
 

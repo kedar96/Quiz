@@ -3,7 +3,6 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
-//#include <malloc.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <time.h>
@@ -46,7 +45,7 @@ void quizType(int qType)
 	}
 	
 	size=read(f1, buff, sizeof(buff));
-    //  	printf("the file's length is %d\n",size);
+      	printf("the file's length is %d\n",size);
 	for(i=0;i<size;i++)
 	{
 		char *quest=malloc(500 * sizeof(char));
@@ -78,8 +77,8 @@ void quizType(int qType)
 			q[k].corrAns=ans;
 			strcpy(q[k].fullQues,quest);
 			free(quest);
-			printf("%s\n",q[k].fullQues);
-			printf("%c\n\n",q[k].corrAns);
+		//	printf("%s\n",q[k].fullQues);
+		//	printf("%c\n\n",q[k].corrAns);
 			k++;
 		//	printf("\n\n");
 		}			
