@@ -1,47 +1,257 @@
-*Which is the capital of France ?
-a)Paris
-b)London
-c)Lille
-d)Lisbon
+*What is the capital of Canada?
+a)Delhi
+b)Paris
+c)Ottawa
+d)London
+%
+=c
+
+*In which year was the U.S. Declaration of Independence ratified?
+a)1776
+b)1992
+c)1889
+d)1446
 %
 =a
 
-*Virat Kohli is the captain of which team in the IPL ?
-a)KKR
-b)RCB
-c)MI
-d)CSK
+*What is the pi rounded to 2 decimal places?
+a)314
+b)3.14
+c)22/7
+d)31.4
 %
 =b
 
-*Which is the national bird of India ?
-a)Sparrow
-b)Crow
-c)Peacock
-d)Parrot
+*Which sport Sania Mirza plays?
+a)Football
+b)Baseball
+c)Cricket
+d)Tennis
 %
-=c
+=d
 
-*Which is the capital of France ?
-a)Paris
-b)London
-c)Lille
-d)Lisbon
+*Who wrote Catch-22?
+a)Joseph Fernandes
+b)Joseph Heller
+c)Joseph
+d)None of the above
+%
+=b
+
+*Which chemical is denoted by the the symbol ‘K’?
+a)Potassium
+b)Nitrogen
+c)Oxygen
+d)Methane
 %
 =a
 
-*How many times has KKR won the IPL title?
-a)0
-b)1
-c)2
-d)3
+*What is the maximum score from 3 darts?
+a)190
+b)180
+c)550
+d)1000
+%
+=b
+
+*Which of the following is not a rainbow color?
+a)Red
+b)Pink
+c)Violet
+d)Blue
+%
+=b
+
+
+*Which was the 1st non Test playing country to beat India in an international match?
+a)Canada
+b)East Africa
+c)Zimbawe
+d)Sri Lanka 
+%
+=d
+
+* Which country did Ravi Shastri paly for?
+a)Pakistan
+b)India
+c)Glamorgan
+d)Australia
+%
+= b
+
+*Which one of the following is classical dance?
+a)Hip-Hop
+b)Free Style
+c)kathakali
+d)Zumba
 %
 =c
 
-*Which is the national bird of India ?
-a)Sparrow
-b)Crow
-c)Peacock
-d)Parrot
+*Who invented bulb?
+a)Einsten
+b)Edison
+c)Abdul Kalam
+d)None of the above 
+%
+=b
+
+
+
+
+
+* Who is the 1st Women Prime Minister of India?
+a)Pratibha Patil
+b)Mridula Sinha
+c)Sonia Gandhi
+d)Indira Gandhi
+%
+=d
+
+*Which Indian player got Padma Bhushan in 2018?
+a)Virat Kohli
+b)Rohit Sharma
+c)Sachin Tendulkar
+d)M.S Dhoni
+%
+=d
+
+*Narendra Modi was Chief Minister of which state?
+a)Goa
+b)Rajasthan
+c)Gujrat
+d)Delhi
 %
 =c
+
+*Who was the 1st Goan Defense Minister of India?
+a)Manohar Parrikar
+b)Vijay Sardesai
+c)Digambar Kamat
+d)Micki Pacheko
+%
+=a
+
+
+*BCCI stands for 
+a)Board of Cricket Committee of India
+b)Board of Cricket Council of India
+c)Board of Control for Cricket in India
+d)None
+%
+=c
+
+*Who is the current Finance Minister of India?
+a)P. Chidambaram
+b)Manmohan Singh
+c)Arun Jaitely
+d)Pranab Mukherjee
+%
+=c
+
+*Sachin Tendulkar is also known by nickname of
+a)Master Blaster
+b)Sachin
+c)Tendulkar
+d)None
+%
+=b
+
+*Neha Kakkar is a
+a)Singer
+b)Assistant Director
+c)Director
+d)Producer
+%
+=a
+
+
+
+
+
+*Indian fastest keyboard player is 
+a)Sadhu Kokilla
+b)Himesh Reshmmiya
+c)Sonu Nigam
+d)Javed Ali
+%
+=a
+
+*Launching Jio sim was the idea of
+a)Mukesh Ambani
+b)Neeta Ambani
+c)Akash Ambani
+d)Isha Ambani
+%
+=d
+
+*Who is the founder of What’s App?
+a)Mark Zukerberg
+b)Bill Gates
+c)Evan Spiegel
+d)Jan Koum
+%
+=d
+
+*Instagram was founded in which year?
+a)2001
+b)2010
+c)1970
+d)2017
+%
+=b
+
+
+
+
+
+*Rediff mail was developed in which country
+a)India
+b)America
+c)Germany
+d)London
+%
+=a
+
+*Anushka Sharma is  
+a)Actress
+b)Dancer
+c)Choreographer
+d)Director
+%
+=a
+
+*Capital of New Zealand
+a)Canada
+b)Paris
+c)Delhi
+d)Wellington
+%
+=d
+
+*Gravity was founded by
+a)Albert Einstein
+b)Abdul Kalam
+c)Issac Newton
+d)None
+%
+=c
+
+
+
+
+
+*Capital of Myanmar?
+a)Paris
+b)Naypyidaw
+c)Pattaya
+d)Goa
+%
+=b
+
+*Telangana was founded in 
+a)9 November 2018
+b)18 June 2014
+c)15 July 2000
+d)2 June 2014
+%
+=d
