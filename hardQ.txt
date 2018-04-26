@@ -1,47 +1,240 @@
-*Which is the capital of France ?
-a)Paris
-b)London
-c)Lille
-d)Lisbon
+* Which of these artists was principally entrusted with the task of illuminating the original document of the Constitution of India?
+a)Ram Kinker Baij
+b)Benode Behari Mukherjee
+c)Abanindranath Tagore
+d)Nandalal Bose
+%
+=d
+
+* Which of the following is not a pair of parent and child, who have both won Nobel Prize?
+a)Marie Curie and Irene Curie
+b)Neils Bohr and Agge Bohr
+c)Herman Emil Fischer and Hans Fischer
+d)J J Thompson and George Paget Thompson
+%
+=d
+
+* Which of these chief ministers has also worked as a handloom weaver in the early phase of his career?
+a)Pinarayi Vijayan
+b)Manik Sarkar
+c)Nitish Kumar
+d)Ashok Gehlot
 %
 =a
 
-*Virat Kohli is the captain of which team in the IPL ?
-a)KKR
-b)RCB
-c)MI
-d)CSK
+* Which of these diseases is caused by bacteria, not a virus?
+a)Typhoid
+b)Dengue
+c)Chikungunya
+d)Mumps
+%
+=a
+
+* Who did Dennis Lillee once reject as a fast bowler and about whom he later jokingly said ‘I think I did him and the game of cricket a favour’?
+a)Irfan Pathan
+b)Sourav Ganguly
+c)Sachin Tendulkar
+d)Breet Lee
+%
+=c
+
+* Which of these is produced in plants of Narora, Kakrapar and Tarapur?
+a)Atomic Power
+b)EMVs
+c)Coins
+d)Rail Coaches
+%
+=a
+
+* Ram Prasad Bismil, Thakur Roshan Singh Rajendra Nath Lahiri and Ashfaqullah Khan were all hanged for their role in which of the following?
+a)Delhi Assembly Bombing
+b)Kakori conspiracy
+c)Saunder’s murder
+d)Chauri chaura incident
 %
 =b
 
-*Which is the national bird of India ?
-a)Sparrow
-b)Crow
-c)Peacock
-d)Parrot
+* In Tulsidas’s Ramcharitmanas who says the following lines
+And to whome: Mangal Bhawan, amangal haari, dravahu so dasarath ajir bihari?
+a)Kakbhushundi to Garuda
+b)Gargi to Maitreyi
+c)Shiva to Parvati
+d)Uddalaka to Shwetaketu
 %
 =c
 
-*Which is the capital of France ?
-a)Paris
-b)London
-c)Lille
-d)Lisbon
+* Which of these naval exercise is conducted jointly by India and Singapore?
+a)Varuna
+b)Malabar
+c)Simbex
+d)Slinex
+%
+=c
+
+* The International Literacy Day is observed on?
+a)Sep 8
+b)Nov 28
+c)May 2
+d)Sep 22
+%
+= a
+
+* The language of Lakshadweep a Union Territory of India, is
+a)Tamil
+b)Hindi
+c)Malayalam
+d)Telgu
+%
+=c
+
+* Which day is observed as the World Standards Day?
+a)June 26
+b)Oct 14
+c)Nov 15
+d)Dec 2
+%
+=b
+
+* Which of the following was the theme of the World Red Cross and Red Crescent Day?
+a)‘Dignity for all -focus on women’
+b)‘Dignity for all-focus on children’
+c)“Focus on health for all”
+d)“Nourishment for all-focus on children”
+%
+=b
+
+* September 27 is celebrated every year as?
+a)Teacher’s Days
+b)National Integration Day
+c)World Tourism Day
+d)International Literacy Day
+%
+=c
+
+* Who is the author of ‘Manas Ka Hans’?
+a)Khushwant Singh
+b)Prem Chand
+c)Jayashankar Prasad
+d)Amrit Lal Nagar
+%
+=d
+
+* The death anniversary of which of the following leaders is observed as Martyrs' Day?
+a)Smt. Indira Gandhi
+b)PI. Jawaharlal Nehru
+c)Mahatma Gandhi
+d)Lal Bahadur Shastri
+%
+=c
+
+* Who is the author of the epic 'Meghdoot"?
+a)Vishakadatta
+b)Valmiki
+c)Banabhatta
+d)Kalidas
+%
+=d
+
+* Who is the author of the book 'Amrit Ki Ore'?
+a)Mukesh Kumar
+b)Narendra Mohan
+c)Upendra Nath
+d)Nirad C. Choudhary
+%
+=b
+
+* Which of the following is observed as Sports Day every year?
+a)22nd April
+b)26th July
+c)29th August
+d)2nd October
+%
+=c
+
+* World Health Day is observed on
+a)Apr 7
+b)Mar 6
+c)May 5
+d)Apr 28
 %
 =a
 
-*How many times has KKR won the IPL title?
-a)0
-b)1
-c)2
-d)3
+* Pongal is a popular festival of which state?
+a)Karnataka
+b)Kerala
+c)Tamil Nadu
+d)Andra Pradesh
 %
 =c
 
-*Which is the national bird of India ?
-a)Sparrow
-b)Crow
-c)Peacock
-d)Parrot
+* Van Mahotsav was started by
+a)Maharshi Karve
+b)Bal Gangadhar Tilak
+c)K.M. Munshi
+d)Sanjay Gandhi
 %
 =c
+
+* The first month of the Indian national calendar is
+a)Magha
+b)Chaitra
+c)Ashadha
+d)Vaishakha
+%
+=b
+
+* Which of the following is not a dance from kerala?
+a)Kathakali
+b)Mohiniattam
+c)Ottan Thullal
+d)Yaksha Gana
+%
+=d
+
+* The festival of Nabanna is celebrated predominatly in
+a)Andhra Pradesh
+b)Rajasthan
+c)Karnataka
+d)Orissa
+%
+=d
+
+* Rath Yatra is famous festival at  
+a)Ayodhya
+b)Mathura
+c)Dwaraka
+d)Puri
+%
+=d
+
+* Onam is the main festival of
+a)Tamil Nadu
+b)Karnataka
+c)Andhra Pradesh
+d)Kerala
+%
+=d
+
+* The Lalit Kala Academy is devoted to the promotion of
+a)Dance and Drama
+b)Fine Arts
+c)Literature
+d)Music
+%
+=b
+
+* Which of the following is a folk dance of India?
+a)Kathakali
+b)Mohiniattam
+c)Garba
+d)Manipuri
+%
+=c
+
+* Central Salt and Marine Chemicals Research Institute is located at
+a)Ahmedabad
+b)Bhavnagar
+c)Gandhinagar
+d)Panaji
+%
+=d
