@@ -158,7 +158,8 @@ void quizType(int qType)
 			continue;
 		}
 
-		if (ans == q[num].corrAns)
+		//if (ans == q[num].corrAns)
+		if (ans == q[randomQuestionId[i]].corrAns)
 		{
 			total = total + 4;
 			printf("\n******CORRECT ANSWER******\n\n");
@@ -166,7 +167,7 @@ void quizType(int qType)
 		else
 		{
 			total = total - 1;
-			printf("\n******INCORRECT, The right answer is '%c'******\n\n", q[num].corrAns);
+			printf("\n******INCORRECT, The right answer is '%c'******\n\n", q[randomQuestionId[i]].corrAns);
 		}
 	}
 
