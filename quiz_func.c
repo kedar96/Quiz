@@ -14,6 +14,7 @@
 
 int breakflag = 1;
 
+
 void handle();
 
 void quizType(int qType)
@@ -138,9 +139,9 @@ void quizType(int qType)
 
 	for (i = 0; i < 10; i++)
 	{
-
-		printf("time:%d\n\n", ran);
-		printf("num %d\n\n", num);
+		
+		//printf("time:%d\n\n", ran);
+		//printf("num %d\n\n", num);
 		lower = lower + range;
 		upper = upper + range;
 		printf("%d)%s", i + 1, q[randomQuestionId[i]].fullQues);
@@ -148,6 +149,8 @@ void quizType(int qType)
 		printf("\nEnter your answer:");
 		//getchar();
 		scanf(" %c", &ans);
+		alarm (0);
+		//printf("time taken:%d\n\n", ran);
 		dup2(stdin_copy, 0);
 		ans = tolower(ans);
 
