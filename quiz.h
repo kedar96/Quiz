@@ -6,3 +6,5 @@ typedef struct question
 
 
 void quizType(int type);
+
+int getvalidint();
