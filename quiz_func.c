@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include <time.h>
 #include "quiz.h"
+#include <signal.h>
 #include <sys/stat.h>
 #define buffSIZE 20000
 #define ansSIZE 50
