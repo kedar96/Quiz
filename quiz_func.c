@@ -96,33 +96,36 @@ void quizType(int qType)
 	upper = k; //range - 1;
 	printf("\nk:%d, upper %d, range %d", k, upper, range);
 
-	for (i = 0; i < 10; i++)
-	{
-
-	regen:
-		//srand(time(NULL));
-		ran = rand();
-		num = (rand() % (upper - lower + 1)) + lower;
-
-		randomQuestionId[i] = num;
-		for (int j = 0; j < 10; j++)
-		{
-			if (randomQuestionId[i] == randomQuestionId[j])
-			{
-				if(randomQuestionId[i]+1 < upper ){
-					randomQuestionId[i]= randomQuestionId[i]+ 1;
-				}else
-					goto regen;
-			}
-		}
+	num = rand()% upper ;
+	printf("\n Num : %d ",num );
+	if(  upper - num   >= 10 ){
+		if(num==0)
+		num++;
+	}else{
+		num = num-10;
 	}
 
-	printf("\nRandom question numbers :\n");
-	for (i = 0; i < 10; i++)
-	{
-		printf("\n%d",randomQuestionId[i]);
 	
+	for (int i = 0; i < 10; i++)
+	{
+		randomQuestionId[i]=num;
+		num++;
 	}
+
+	for (int i = 0; i < 10; i++) {    // shuffle array
+    	int temp = randomQuestionId[i];
+    	int randomIndex = rand() % 10;
+
+   		 randomQuestionId[i]           = randomQuestionId[randomIndex];
+    	randomQuestionId[randomIndex] = temp;
+	}
+	printf("\nNumbers :\n");
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d\n",randomQuestionId[i]);
+		
+	}
+	
 
 	signal(SIGALRM, handle);
 		
