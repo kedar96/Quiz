@@ -47,7 +47,7 @@ length=strlen(str);
 
 		else
 		{
-			printf("invalid integer, please enter again\n");			
+			printf("invalid choice!!!, please enter again\n");			
 		}
 
 

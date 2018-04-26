@@ -12,8 +12,6 @@
 
 int main()
 {
-	//char buff[10000];
-	//questionType q[50]; //to store questions
 	int fEasy,fMed,fHard;
 	int flag=0;
 	char name[30];
@@ -38,7 +36,6 @@ int main()
 		printf("\n4: Exit\n");
 	do{		
 		printf("\nEnter Your Choice:");
-		//scanf("%d",&choice);
 		choice=getvalidint();		
 		printf("\n************************************************************\n");
 		srand(time(NULL));

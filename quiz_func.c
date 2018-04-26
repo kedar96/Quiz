@@ -19,6 +19,7 @@ void handle();
 
 void quizType(int qType)
 {
+	system("clear");
 	int stdin_copy = dup(0);
 	char buff[buffSIZE];
 	questionType q[ansSIZE]; //to store questions
