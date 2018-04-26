@@ -15,12 +15,7 @@ int main()
 	int fEasy,fMed,fHard;
 	int flag=0;
 	char name[30];
-	int size;
-	char ans;
-	int i=0,j=0,k=0;
-	int choice,r;
-		//Print Introduction
-		//system("cls");
+	int choice;
 	printf("\n************************************************************\n");
 	printf("\nWelcome to the 'ADK ONLINE QUIZ'\n");		
 	printf("\n************************************************************\n");
@@ -35,7 +30,7 @@ int main()
 		printf("\n3: HARD LEVEL (20 Seconds)\n");
 		printf("\n4: Exit\n");
 	do{		
-		printf("\nEnter Your Choice:");
+		printf("\nEnter the difficulty level: \n");
 		choice=getvalidint();		
 		printf("\n************************************************************\n");
 		srand(time(NULL));

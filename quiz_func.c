@@ -23,7 +23,7 @@ void quizType(int qType)
 	int stdin_copy = dup(0);
 	char buff[buffSIZE];
 	questionType q[ansSIZE]; //to store questions
-	//int fEasy,fMed,fHard;
+
 	int randomQuestionId[10];
 	int f1, num = 0;
 	int lower = 0, upper = 0;
@@ -58,7 +58,7 @@ void quizType(int qType)
 	}
 
 	size = read(f1, buff, sizeof(buff));
-	printf("the file's length is %d\n", size);
+	//printf("the file's length is %d\n", size);
 	for (i = 0; i < size; i++)
 	{
 		char *quest = malloc(500 * sizeof(char));
@@ -70,7 +70,6 @@ void quizType(int qType)
 				i++;
 				quest[j] = buff[i];
 				j++;
-				//	printf("i:%d j:%d\n",i,j);
 			}
 			i++;
 			while (flag != 1)
@@ -90,22 +89,21 @@ void quizType(int qType)
 			q[k].corrAns = ans;
 			strcpy(q[k].fullQues, quest);
 			free(quest);
-			//	printf("%s\n",q[k].fullQues);
-			//	printf("%c\n\n",q[k].corrAns);
 			k++;
-			//	printf("\n\n");
 		}
 	}
-	printf("\n\t******You can only answer using  the options a/b/c/d or A/B/C/D ******\n");
-	printf("\n******Any other option choosen will be automatically marked as INCORRECT answer******\n");
-	printf("\n\t******--->N0TE +4 for corect answer and -1 for incorrect******\n\n");
+	printf("\n***   Answer using a/b/c/d or A/B/C/D   ***\n");
+	printf("\n*************************************************************************\n");
+	printf("\n***   Any other option choosen will be directly marked as Incorrect   ***\n");
+	printf("\n*************************************************************************\n");
+	printf("\n***   >>N0TE: +4 for corect answer, -1 for incorrect   ***\n\n");
+	printf("\n*************************************************************************\n");
 	int ran = 0;
 	range = (k + 1) / 10;
 	upper = k; //range - 1;
-	//printf("\nk:%d, upper %d, range %d", k, upper, range);
 
 	num = rand() % upper;
-	//printf("\n Num : %d ", num);
+	
 	if (upper - num >= 10)
 	{
 		if (num == 0)
@@ -130,19 +128,19 @@ void quizType(int qType)
 		randomQuestionId[i] = randomQuestionId[randomIndex];
 		randomQuestionId[randomIndex] = temp;
 	}
-	//printf("\nNumbers :\n");
+
+	/*
+	printf("\nNumbers :\n");
 	for (i = 0; i < 10; i++)
 	{
-	//	printf("%d\n", randomQuestionId[i]);
+		printf("%d\n", randomQuestionId[i]);
 	}
+	*/
 
 	signal(SIGALRM, handle);
 
 	for (i = 0; i < 10; i++)
 	{
-		
-		//printf("time:%d\n\n", ran);
-		//printf("num %d\n\n", num);
 		lower = lower + range;
 		upper = upper + range;
 		printf("%d)%s", i + 1, q[randomQuestionId[i]].fullQues);
@@ -151,7 +149,7 @@ void quizType(int qType)
 		//getchar();
 		scanf(" %c", &ans);
 		alarm (0);
-		//printf("time taken:%d\n\n", ran);
+		
 		dup2(stdin_copy, 0);
 		ans = tolower(ans);
 
@@ -162,20 +160,20 @@ void quizType(int qType)
 			continue;
 		}
 
-		//if (ans == q[num].corrAns)
 		if (ans == q[randomQuestionId[i]].corrAns)
 		{
 			total = total + 4;
-			printf("\n******CORRECT ANSWER******\n\n");
+			printf("\n++++   CORRECT ANSWER   ++++\n\n");
 		}
 		else
 		{
 			total = total - 1;
-			printf("\n******INCORRECT, The right answer is '%c'******\n\n", q[randomQuestionId[i]].corrAns);
+			printf("\n----   INCORRECT, The right answer is ' %c '   ----\n\n", q[randomQuestionId[i]].corrAns);
 		}
 	}
-
-	printf("\nYour final score is %d (out of 40)\n", total);
+	printf("*************************************************************************\n");
+	printf("\n<----    Your final score is %d (out of 40)    ---->\n", total);
+	printf("\n*************************************************************************\n");
 }
 
 void handle()

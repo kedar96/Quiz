@@ -154,7 +154,7 @@ b)Sachin
 c)Tendulkar
 d)None
 %
-=b
+=a
 
 *Neha Kakkar is a
 a)Singer
@@ -163,9 +163,6 @@ c)Director
 d)Producer
 %
 =a
-
-
-
 
 
 *Indian fastest keyboard player is 
