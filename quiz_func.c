@@ -13,11 +13,12 @@
 #define ansSIZE 50
 
 int breakflag = 1;
+
 void handle();
 
 void quizType(int qType)
 {
-
+	int stdin_copy = dup(0);
 	char buff[buffSIZE];
 	questionType q[ansSIZE]; //to store questions
 	//int fEasy,fMed,fHard;
@@ -31,17 +32,21 @@ void quizType(int qType)
 	int i = 0, j = 0, k = 0;
 	int choice, r;
 	int total = 0;
+	int AlarmTime=0;
 	if (qType == 1)
 	{
 		f1 = open("easyQ.txt", O_RDONLY);
+		AlarmTime = 10;
 	}
 	else if (qType == 2)
 	{
 		f1 = open("mediumQ.txt", O_RDONLY);
+		AlarmTime = 15;
 	}
 	else
 	{
 		f1 = open("hardQ.txt", O_RDONLY);
+		AlarmTime = 20;
 	}
 	if (f1 < 0)
 	{
@@ -95,44 +100,43 @@ void quizType(int qType)
 	int ran = 0;
 	range = (k + 1) / 10;
 	upper = k; //range - 1;
-	printf("\nk:%d, upper %d, range %d", k, upper, range);
+	//printf("\nk:%d, upper %d, range %d", k, upper, range);
 
-	num = rand()% upper ;
-	printf("\n Num : %d ",num );
-	if(  upper - num   >= 10 ){
-		if(num==0)
-		num++;
-	}else{
-		num = num-10;
+	num = rand() % upper;
+	//printf("\n Num : %d ", num);
+	if (upper - num >= 10)
+	{
+		if (num == 0)
+			num++;
+	}
+	else
+	{
+		num = num - 10;
 	}
 
-	
 	for (int i = 0; i < 10; i++)
 	{
-		randomQuestionId[i]=num;
+		randomQuestionId[i] = num;
 		num++;
 	}
 
-	for (int i = 0; i < 10; i++) {    // shuffle array
-    	int temp = randomQuestionId[i];
-    	int randomIndex = rand() % 10;
+	for (int i = 0; i < 10; i++)
+	{ // shuffle array
+		int temp = randomQuestionId[i];
+		int randomIndex = rand() % 10;
 
-   		 randomQuestionId[i]           = randomQuestionId[randomIndex];
-    	randomQuestionId[randomIndex] = temp;
+		randomQuestionId[i] = randomQuestionId[randomIndex];
+		randomQuestionId[randomIndex] = temp;
 	}
-	printf("\nNumbers :\n");
+	//printf("\nNumbers :\n");
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d\n",randomQuestionId[i]);
-		
+	//	printf("%d\n", randomQuestionId[i]);
 	}
-	
 
 	signal(SIGALRM, handle);
-		
-	i = 0;
-time_exhausted:
-	for (; i < 10 && breakflag; i++)
+
+	for (i = 0; i < 10; i++)
 	{
 
 		printf("time:%d\n\n", ran);
@@ -140,11 +144,20 @@ time_exhausted:
 		lower = lower + range;
 		upper = upper + range;
 		printf("%d)%s", i + 1, q[randomQuestionId[i]].fullQues);
-		alarm(2);
-		printf("enter your answer\n");
-		getchar();
-		scanf("%c", &ans);
+		alarm(AlarmTime);
+		printf("\nEnter your answer:");
+		//getchar();
+		scanf(" %c", &ans);
+		dup2(stdin_copy, 0);
 		ans = tolower(ans);
+
+		if (!breakflag)
+		{
+			printf("\n\n Oops! Time up\n\n");
+			breakflag = 1;
+			continue;
+		}
+
 		if (ans == q[num].corrAns)
 		{
 			total = total + 4;
@@ -156,12 +169,6 @@ time_exhausted:
 			printf("\n******INCORRECT, The right answer is '%c'******\n\n", q[num].corrAns);
 		}
 	}
-	if (i != 9)
-	{
-		printf("\n Time up\n\n");
-		breakflag = 1;
-		goto time_exhausted;
-	}
 
 	printf("\nYour final score is %d (out of 40)\n", total);
 }
@@ -169,4 +176,5 @@ time_exhausted:
 void handle()
 {
 	breakflag = 0;
+	close(0);
 }

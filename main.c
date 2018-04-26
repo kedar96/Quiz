@@ -32,9 +32,9 @@ int main()
 		printf("\n************************************************************\n");
 		printf("\nCHOOSE THE DIFFICULTY LEVEL\n");
 		printf("\n************************************************************\n");
-		printf("\n1: EASY LEVEL\n");
-		printf("\n2: MEDIUM LEVEL\n");
-		printf("\n3: HARD LEVEL\n");
+		printf("\n1: EASY LEVEL (10 Seconds)\n");
+		printf("\n2: MEDIUM LEVEL (15 Seconds)\n");
+		printf("\n3: HARD LEVEL (20 Seconds)\n");
 		printf("\n4: Exit\n");
 	do{		
 		printf("\nEnter Your Choice:");
