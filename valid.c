@@ -47,7 +47,7 @@ length=strlen(str);
 
 		else
 		{
-			printf("invalid!!!\nEnter the difficulty level\n");			
+			printf("Invalid!!!\nEnter the difficulty level\n");			
 		}
 
 }while(1);

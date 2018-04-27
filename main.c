@@ -12,12 +12,13 @@
 
 int main()
 {
+	system("clear");
 	int fEasy,fMed,fHard;
 	int flag=0;
 	char name[30];
 	int choice;
 	printf("\n************************************************************\n");
-	printf("\nWelcome to the 'ADK ONLINE QUIZ'\n");		
+	printf("\nWelcome to the 'ONLINE QUIZ GAME'\n");		
 	printf("\n************************************************************\n");
 	printf("\nPlease enter your name\n");
 	scanf("%s",name);		
@@ -32,7 +33,7 @@ int main()
 	do{		
 		printf("\nEnter the difficulty level: \n");
 		choice=getvalidint();		
-		printf("\n************************************************************\n");
+		//printf("\n************************************************************\n");
 		srand(time(NULL));
 		switch(choice)
 		{
