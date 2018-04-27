@@ -26,9 +26,8 @@ void quizType(int qType)
 
 	int randomQuestionId[10];
 	int f1, num = 0;
-	int lower = 0, upper = 0;
+	int upper = 0;
 	int flag = 0;
-	int range = 0;
 	int size;
 	char ans;
 	int i = 0, j = 0, k = 0;
@@ -98,9 +97,7 @@ void quizType(int qType)
 	printf("\n*************************************************************************\n");
 	printf("\n***   >>N0TE: +4 for corect answer, -1 for incorrect   ***\n\n");
 	printf("\n*************************************************************************\n");
-	int ran = 0;
-	range = (k + 1) / 10;
-	upper = k; //range - 1;
+	upper = k; //total questions
 
 	num = rand() % upper;
 	
@@ -129,20 +126,10 @@ void quizType(int qType)
 		randomQuestionId[randomIndex] = temp;
 	}
 
-	/*
-	printf("\nNumbers :\n");
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d\n", randomQuestionId[i]);
-	}
-	*/
-
 	signal(SIGALRM, handle);
 
 	for (i = 0; i < 10; i++)
 	{
-		lower = lower + range;
-		upper = upper + range;
 		printf("%d)%s", i + 1, q[randomQuestionId[i]].fullQues);
 		alarm(AlarmTime);
 		printf("\nEnter your answer:");
